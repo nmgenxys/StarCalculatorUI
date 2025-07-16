@@ -114,7 +114,7 @@ with col2:
 
 # ==================== Table ====================
 # Title, Spacer, Boost Input, Apply, Reset — all in one row
-title_col, spacer_col, boost_input_col, boost_btn_col, reset_col = st.columns([5.5, 1.5, 0.6, 0.9, 1])
+title_col, spacer_col, boost_input_col, boost_btn_col, reset_col = st.columns([5.5, 1.5, 0.6, 1, 1])
 
 # Title
 with title_col:
@@ -277,7 +277,7 @@ for measure in measures_of_interest:
             )
             gx_val = gx_val_pct / 100.0
 
-            # ✅ Add this line to capture the value for summary calculation
+            # add this line to capture the value for summary calculation
             gxsim_values[measure] = gx_val
 
             if f"{measure}_reset" in st.session_state:
