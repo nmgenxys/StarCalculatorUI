@@ -1,0 +1,393 @@
+{
+  "C01": {
+    "description": "Breast Cancer Screening",
+    "hd_section": "HD1: Staying Healthy: Screenings, Tests and Vaccines",
+    "reverse": false,
+    "thresholds": [0.53, 0.67, 0.75, 0.82, 0.82],
+    "ranges": [
+      { "min": null, "max": 0.53, "include_max": false, "label": "< 53%" },
+      { "min": 0.53, "max": 0.67, "include_max": false, "label": "≥ 53% to < 67%" },
+      { "min": 0.67, "max": 0.75, "include_max": false, "label": "≥ 67% to < 75%" },
+      { "min": 0.75, "max": 0.82, "include_max": false, "label": "≥ 75% to < 82%" },
+      { "min": 0.82, "max": null, "include_max": true, "label": "≥ 82%" }
+    ]
+  },
+  "C02": {
+    "description": "Colorectal Cancer Screening",
+    "hd_section": "HD1: Staying Healthy: Screenings, Tests and Vaccines",
+    "reverse": false,
+    "thresholds": [0.53, 0.65, 0.75, 0.83, 0.83],
+    "ranges": [
+      { "min": null, "max": 0.53, "include_max": false, "label": "< 53%" },
+      { "min": 0.53, "max": 0.65, "include_max": false, "label": "≥ 53% to < 65%" },
+      { "min": 0.65, "max": 0.75, "include_max": false, "label": "≥ 65% to < 75%" },
+      { "min": 0.75, "max": 0.83, "include_max": false, "label": "≥ 75% to < 83%" },
+      { "min": 0.83, "max": null, "include_max": true, "label": "≥ 83%" }
+    ]
+  },
+  "C03": {
+    "description": "Annual Flu Vaccine",
+    "hd_section": "HD1: Staying Healthy: Screenings, Tests and Vaccines",
+    "reverse": false,
+    "thresholds": [0.61, 0.65, 0.71, 0.76, 0.76],
+    "ranges": [
+      { "min": null, "max": 0.61, "include_max": false, "label": "< 61%" },
+      { "min": 0.61, "max": 0.65, "include_max": false, "label": "≥ 61% to < 65%" },
+      { "min": 0.65, "max": 0.71, "include_max": false, "label": "≥ 65% to < 71%" },
+      { "min": 0.71, "max": 0.76, "include_max": false, "label": "≥ 71% to < 76%" },
+      { "min": 0.76, "max": null, "include_max": true, "label": "≥ 76%" }
+    ]
+  },
+  "C04": {
+    "description": "Monitoring Physical Activity",
+    "hd_section": "HD1: Staying Healthy: Screenings, Tests and Vaccines",
+    "reverse": false,
+    "thresholds": [0.41, 0.47, 0.52, 0.6, 0.6],
+    "ranges": [
+      { "min": null, "max": 0.41, "include_max": false, "label": "< 41%" },
+      { "min": 0.41, "max": 0.47, "include_max": false, "label": "≥ 41% to < 47%" },
+      { "min": 0.47, "max": 0.52, "include_max": false, "label": "≥ 47% to < 52%" },
+      { "min": 0.52, "max": 0.6, "include_max": false, "label": "≥ 52% to < 60%" },
+      { "min": 0.6, "max": null, "include_max": true, "label": "≥ 60%" }
+    ]
+  },
+  "C05": {
+    "description": "Special Needs Plan (SNP) Care Management",
+    "hd_section": "HD2: Managing Chronic (Long Term) Conditions",
+    "reverse": false,
+    "thresholds": [0.46, 0.62, 0.76, 0.89, 0.89],
+    "ranges": [
+      { "min": null, "max": 0.46, "include_max": false, "label": "< 46%" },
+      { "min": 0.46, "max": 0.62, "include_max": false, "label": "≥ 46% to < 62%" },
+      { "min": 0.62, "max": 0.76, "include_max": false, "label": "≥ 62% to < 76%" },
+      { "min": 0.76, "max": 0.89, "include_max": false, "label": "≥ 76% to < 89%" },
+      { "min": 0.89, "max": null, "include_max": true, "label": "≥ 89%" }
+    ]
+  },
+  "C06": {
+    "description": "Care for Older Adults – Medication Review",
+    "hd_section": "HD2: Managing Chronic (Long Term) Conditions",
+    "reverse": false,
+    "thresholds": [0.53, 0.8, 0.92, 0.98, 0.98],
+    "ranges": [
+      { "min": null, "max": 0.53, "include_max": false, "label": "< 53%" },
+      { "min": 0.53, "max": 0.8, "include_max": false, "label": "≥ 53% to < 80%" },
+      { "min": 0.8, "max": 0.92, "include_max": false, "label": "≥ 80% to < 92%" },
+      { "min": 0.92, "max": 0.98, "include_max": false, "label": "≥ 92% to < 98%" },
+      { "min": 0.98, "max": null, "include_max": true, "label": "≥ 98%" }
+    ]
+  },
+  "C07": {
+    "description": "Care for Older Adults – Pain Assessment",
+    "hd_section": "HD2: Managing Chronic (Long Term) Conditions",
+    "reverse": false,
+    "thresholds": [0.6, 0.81, 0.92, 0.96, 0.96],
+    "ranges": [
+      { "min": null, "max": 0.6, "include_max": false, "label": "< 60%" },
+      { "min": 0.6, "max": 0.81, "include_max": false, "label": "≥ 60% to < 81%" },
+      { "min": 0.81, "max": 0.92, "include_max": false, "label": "≥ 81% to < 92%" },
+      { "min": 0.92, "max": 0.96, "include_max": false, "label": "≥ 92% to < 96%" },
+      { "min": 0.96, "max": null, "include_max": true, "label": "≥ 96%" }
+    ]
+  },
+  "C08": {
+    "description": "Osteoporosis Management in Women who had a Fracture",
+    "hd_section": "HD2: Managing Chronic (Long Term) Conditions",
+    "reverse": false,
+    "thresholds": [0.27, 0.39, 0.52, 0.71, 0.71],
+    "ranges": [
+      { "min": null, "max": 0.27, "include_max": false, "label": "< 27%" },
+      { "min": 0.27, "max": 0.39, "include_max": false, "label": "≥ 27% to < 39%" },
+      { "min": 0.39, "max": 0.52, "include_max": false, "label": "≥ 39% to < 52%" },
+      { "min": 0.52, "max": 0.71, "include_max": false, "label": "≥ 52% to < 71%" },
+      { "min": 0.71, "max": null, "include_max": true, "label": "≥ 71%" }
+    ]
+  },
+  "C09": {
+    "description": "Diabetes Care – Eye Exam",
+    "hd_section": "HD2: Managing Chronic (Long Term) Conditions",
+    "reverse": false,
+    "thresholds": [0.57, 0.7, 0.77, 0.83, 0.83],
+    "ranges": [
+      { "min": null, "max": 0.57, "include_max": false, "label": "< 57%" },
+      { "min": 0.57, "max": 0.7, "include_max": false, "label": "≥ 57% to < 70%" },
+      { "min": 0.7, "max": 0.77, "include_max": false, "label": "≥ 70% to < 77%" },
+      { "min": 0.77, "max": 0.83, "include_max": false, "label": "≥ 77% to < 83%" },
+      { "min": 0.83, "max": null, "include_max": true, "label": "≥ 83%" }
+    ]
+  },
+  "C10": {
+    "description": "Diabetes Care – Blood Sugar Controlled",
+    "hd_section": "HD2: Managing Chronic (Long Term) Conditions",
+    "reverse": false,
+    "thresholds": [0.49, 0.72, 0.84, 0.9, 0.9],
+    "ranges": [
+      { "min": null, "max": 0.49, "include_max": false, "label": "< 49%" },
+      { "min": 0.49, "max": 0.72, "include_max": false, "label": "≥ 49% to < 72%" },
+      { "min": 0.72, "max": 0.84, "include_max": false, "label": "≥ 72% to < 84%" },
+      { "min": 0.84, "max": 0.9, "include_max": false, "label": "≥ 84% to < 90%" },
+      { "min": 0.9, "max": null, "include_max": true, "label": "≥ 90%" }
+    ]
+  }, 
+  "C11": {
+    "description": "Controlling High Blood Pressure",
+    "hd_section": "HD2: Managing Chronic (Long Term) Conditions",
+    "reverse": false,
+    "thresholds": [0.69, 0.74, 0.8, 0.85, 0.85],
+    "ranges": [
+      { "min": null, "max": 0.69, "include_max": false, "label": "< 69%" },
+      { "min": 0.69, "max": 0.74, "include_max": false, "label": "≥ 69% to < 74%" },
+      { "min": 0.74, "max": 0.8, "include_max": false, "label": "≥ 74% to < 80%" },
+      { "min": 0.8, "max": 0.85, "include_max": false, "label": "≥ 80% to < 85%" },
+      { "min": 0.85, "max": null, "include_max": true, "label": "≥ 85%" }
+    ]
+  },
+  "C12": {
+    "description": "Reducing the Risk of Falling",
+    "hd_section": "HD2: Managing Chronic (Long Term) Conditions",
+    "reverse": false,
+    "thresholds": [0.5, 0.56, 0.63, 0.73, 0.73],
+    "ranges": [
+      { "min": null, "max": 0.5, "include_max": false, "label": "< 50%" },
+      { "min": 0.5, "max": 0.56, "include_max": false, "label": "≥ 50% to < 56%" },
+      { "min": 0.56, "max": 0.63, "include_max": false, "label": "≥ 56% to < 63%" },
+      { "min": 0.63, "max": 0.73, "include_max": false, "label": "≥ 63% to < 73%" },
+      { "min": 0.73, "max": null, "include_max": true, "label": "≥ 73%" }
+    ]
+  },
+  "C13": {
+    "description": "Improving Bladder Control",
+    "hd_section": "HD2: Managing Chronic (Long Term) Conditions",
+    "reverse": false,
+    "thresholds": [0.39, 0.44, 0.48, 0.52, 0.52],
+    "ranges": [
+      { "min": null, "max": 0.39, "include_max": false, "label": "< 39%" },
+      { "min": 0.39, "max": 0.44, "include_max": false, "label": "≥ 39% to < 44%" },
+      { "min": 0.44, "max": 0.48, "include_max": false, "label": "≥ 44% to < 48%" },
+      { "min": 0.48, "max": 0.52, "include_max": false, "label": "≥ 48% to < 52%" },
+      { "min": 0.52, "max": null, "include_max": true, "label": "≥ 52%" }
+    ]
+  },
+  "C14": {
+    "description": "Medication Reconciliation Post-Discharge",
+    "hd_section": "HD2: Managing Chronic (Long Term) Conditions",
+    "reverse": false,
+    "thresholds": [0.42, 0.57, 0.73, 0.87, 0.87],
+    "ranges": [
+      { "min": null, "max": 0.42, "include_max": false, "label": "< 42%" },
+      { "min": 0.42, "max": 0.57, "include_max": false, "label": "≥ 42% to < 57%" },
+      { "min": 0.57, "max": 0.73, "include_max": false, "label": "≥ 57% to < 73%" },
+      { "min": 0.73, "max": 0.87, "include_max": false, "label": "≥ 73% to < 87%" },
+      { "min": 0.87, "max": null, "include_max": true, "label": "≥ 87%" }
+    ]
+  },
+  "C15": {
+    "description": "Plan All-Cause Readmissions",
+    "hd_section": "HD2: Managing Chronic (Long Term) Conditions",
+    "reverse": true,
+    "thresholds": [0.14, 0.12, 0.1, 0.08, 0.08],
+    "ranges": [
+      { "min": 0.14, "max": null, "include_max": false, "label": "> 14%" },
+      { "min": 0.12, "max": 0.14, "include_max": true, "label": "> 12% to ≤ 14%" },
+      { "min": 0.1, "max": 0.12, "include_max": true, "label": "> 10% to ≤ 12%" },
+      { "min": 0.08, "max": 0.1, "include_max": true, "label": "> 8% to ≤ 10%" },
+      { "min": null, "max": 0.08, "include_max": true, "label": "≤ 8%" }
+    ]
+  },
+  "C16": {
+    "description": "Statin Therapy for Patients with Cardiovascular Disease",
+    "hd_section": "HD2: Managing Chronic (Long Term) Conditions",
+    "reverse": false,
+    "thresholds": [0.81, 0.85, 0.88, 0.92, 0.92],
+    "ranges": [
+      { "min": null, "max": 0.81, "include_max": false, "label": "< 81%" },
+      { "min": 0.81, "max": 0.85, "include_max": false, "label": "≥ 81% to < 85%" },
+      { "min": 0.85, "max": 0.88, "include_max": false, "label": "≥ 85% to < 88%" },
+      { "min": 0.88, "max": 0.92, "include_max": false, "label": "≥ 88% to < 92%" },
+      { "min": 0.92, "max": null, "include_max": true, "label": "≥ 92%" }
+    ]
+  },
+  "C17": {
+    "description": "Transitions of Care",
+    "hd_section": "HD2: Managing Chronic (Long Term) Conditions",
+    "reverse": false,
+    "thresholds": [0.44, 0.52, 0.63, 0.77, 0.77],
+    "ranges": [
+      { "min": null, "max": 0.44, "include_max": false, "label": "< 44%" },
+      { "min": 0.44, "max": 0.52, "include_max": false, "label": "≥ 44% to < 52%" },
+      { "min": 0.52, "max": 0.63, "include_max": false, "label": "≥ 52% to < 63%" },
+      { "min": 0.63, "max": 0.77, "include_max": false, "label": "≥ 63% to < 77%" },
+      { "min": 0.77, "max": null, "include_max": true, "label": "≥ 77%" }
+    ]
+  },
+  "C18": {
+    "description": "Follow-up after Emergency Department Visit for People with Multiple High-Risk Chronic Conditions",
+    "hd_section": "HD2: Managing Chronic (Long Term) Conditions",
+    "reverse": false,
+    "thresholds": [0.39, 0.53, 0.6, 0.69, 0.69],
+    "ranges": [
+      { "min": null, "max": 0.39, "include_max": false, "label": "< 39%" },
+      { "min": 0.39, "max": 0.53, "include_max": false, "label": "≥ 39% to < 53%" },
+      { "min": 0.53, "max": 0.6, "include_max": false, "label": "≥ 53% to < 60%" },
+      { "min": 0.6, "max": 0.69, "include_max": false, "label": "≥ 60% to < 69%" },
+      { "min": 0.69, "max": null, "include_max": true, "label": "≥ 69%" }
+    ]
+  },
+  "C19": {
+    "description": "Getting Needed Care",
+    "hd_section": "HD3: Member Experience with Health Plan",
+    "reverse": false,
+    "thresholds": [0.77, 0.79, 0.82, 0.83, 0.83],
+    "ranges": [
+      {"min": null, "max": 0.77, "include_max": false, "label": "< 77"},
+      {"min": 0.77, "max": 0.79, "include_max": false, "label": ">= 77 to < 79"},
+      {"min": 0.79, "max": 0.82, "include_max": false, "label": ">= 79 to < 82"},
+      {"min": 0.82, "max": 0.83, "include_max": false, "label": ">= 82 to < 83"},
+      {"min": 0.83, "max": null, "include_max": true, "label": ">= 83"}
+    ]
+  },
+  "C20": {
+    "description": "Getting Appointments and Care Quickly",
+    "hd_section": "HD3: Member Experience with Health Plan",
+    "reverse": false,
+    "thresholds": [0.8, 0.82, 0.84, 0.86, 0.86],
+    "ranges": [
+      {"min": null, "max": 0.8, "include_max": false, "label": "< 80"},
+      {"min": 0.8, "max": 0.82, "include_max": false, "label": ">= 80 to < 82"},
+      {"min": 0.82, "max": 0.84, "include_max": false, "label": ">= 82 to < 84"},
+      {"min": 0.84, "max": 0.86, "include_max": false, "label": ">= 84 to < 86"},
+      {"min": 0.86, "max": null, "include_max": true, "label": ">= 86"}
+    ]
+  },
+  "C21": {
+    "description": "Customer Service",
+    "hd_section": "HD3: Member Experience with Health Plan",
+    "reverse": false,
+    "thresholds": [0.88, 0.89, 0.91, 0.92, 0.92],
+    "ranges": [
+      {"min": null, "max": 0.88, "include_max": false, "label": "< 88"},
+      {"min": 0.88, "max": 0.89, "include_max": false, "label": ">= 88 to < 89"},
+      {"min": 0.89, "max": 0.91, "include_max": false, "label": ">= 89 to < 91"},
+      {"min": 0.91, "max": 0.92, "include_max": false, "label": ">= 91 to < 92"},
+      {"min": 0.92, "max": null, "include_max": true, "label": ">= 92"}
+    ]
+  },
+  "C22": {
+    "description": "Rating of Health Care Quality",
+    "hd_section": "HD3: Member Experience with Health Plan",
+    "reverse": false,
+    "thresholds": [0.84, 0.85, 0.87, 0.88, 0.88],
+    "ranges": [
+      {"min": null, "max": 0.84, "include_max": false, "label": "< 84"},
+      {"min": 0.84, "max": 0.85, "include_max": false, "label": ">= 84 to < 85"},
+      {"min": 0.85, "max": 0.87, "include_max": false, "label": ">= 85 to < 87"},
+      {"min": 0.87, "max": 0.88, "include_max": false, "label": ">= 87 to < 88"},
+      {"min": 0.88, "max": null, "include_max": true, "label": ">= 88"}
+    ]
+  },
+  "C23": {
+    "description": "Rating of Health Plan",
+    "hd_section": "HD3: Member Experience with Health Plan",
+    "reverse": false,
+    "thresholds": [0.84, 0.86, 0.88, 0.89, 0.89],
+    "ranges": [
+      {"min": null, "max": 0.84, "include_max": false, "label": "< 84"},
+      {"min": 0.84, "max": 0.86, "include_max": false, "label": ">= 84 to < 86"},
+      {"min": 0.86, "max": 0.88, "include_max": false, "label": ">= 86 to < 88"},
+      {"min": 0.88, "max": 0.89, "include_max": false, "label": ">= 88 to < 89"},
+      {"min": 0.89, "max": null, "include_max": true, "label": ">= 89"}
+    ]
+  },
+  "C24": {
+    "description": "Care Coordination",
+    "hd_section": "HD3: Member Experience with Health Plan",
+    "reverse": false,
+    "thresholds": [0.84, 0.85, 0.87, 0.88, 0.88],
+    "ranges": [
+      {"min": null, "max": 0.84, "include_max": false, "label": "< 84"},
+      {"min": 0.84, "max": 0.85, "include_max": false, "label": ">= 84 to < 85"},
+      {"min": 0.85, "max": 0.87, "include_max": false, "label": ">= 85 to < 87"},
+      {"min": 0.87, "max": 0.88, "include_max": false, "label": ">= 87 to < 88"},
+      {"min": 0.88, "max": null, "include_max": true, "label": ">= 88"}
+    ]
+  },
+  "C25": {
+    "description": "Complaints about the Health Plan",
+    "hd_section": "HD4: Member Complaints and Changes in the Health Plan's Performance",
+    "reverse": true,
+    "thresholds": [1.39, 0.76, 0.37, 0.12, 0.12],
+    "ranges": [
+      {"min": 1.39, "max": null, "include_max": false, "label": "> 1.39"},
+      {"min": 0.76, "max": 1.39, "include_max": true, "label": "> 0.76 to <= 1.39"},
+      {"min": 0.37, "max": 0.76, "include_max": true, "label": "> 0.37 to <= 0.76"},
+      {"min": 0.12, "max": 0.37, "include_max": true, "label": "> 0.12 to <= 0.37"},
+      {"min": null, "max": 0.12, "include_max": true, "label": "<= 0.12"}
+    ]
+  },
+  "C26": {
+    "description": "Members Choosing to Leave the Plan",
+    "hd_section": "HD4: Member Complaints and Changes in the Health Plan's Performance",
+    "reverse": true,
+    "thresholds": [0.36, 0.36, 0.24, 0.07, 0.08],
+    "ranges": [
+      {"min": 0.36, "max": null, "include_max": false, "label": "> 36%"},
+      {"min": 0.24, "max": 0.36, "include_max": true, "label": "> 24% to <= 36%"},
+      {"min": 0.17, "max": 0.24, "include_max": true, "label": "> 17% to <= 24%"},
+      {"min": 0.08, "max": 0.17, "include_max": true, "label": "> 8% to <= 17%"},
+      {"min": null, "max": 0.08, "include_max": true, "label": "<= 8%"}
+    ]
+  },
+  "C27": {
+    "description": "Health Plan Quality Improvement",
+    "hd_section": "HD4: Member Complaints and Changes in the Health Plan's Performance",
+    "reverse": false,
+    "thresholds": [-0.179809, 0, 0.174445, 0.421057, 0.421057],
+    "ranges": [
+      {"min": null, "max": -0.179809, "include_max": false, "label": "< -0.179809"},
+      {"min": -0.179809, "max": 0, "include_max": false, "label": ">= -0.179809 to < 0"},
+      {"min": 0, "max": 0.174445, "include_max": false, "label": ">= 0 to < 0.174445"},
+      {"min": 0.174445, "max": 0.421057, "include_max": false, "label": ">= 0.174445 to < 0.421057"},
+      {"min": 0.421057, "max": null, "include_max": true, "label": ">= 0.421057"}
+    ]
+  },
+  "C28": {
+    "description": "Plan Makes Timely Decisions about Appeals",
+    "hd_section": "HD5: Health Plan Customer Service",
+    "reverse": false,
+    "thresholds": [0.69, 0.85, 0.95, 0.99, 0.99],
+    "ranges": [
+      {"min": null, "max": 0.69, "include_max": false, "label": "< 69%"},
+      {"min": 0.69, "max": 0.85, "include_max": false, "label": ">= 69% to < 85%"},
+      {"min": 0.85, "max": 0.95, "include_max": false, "label": ">= 85% to < 95%"},
+      {"min": 0.95, "max": 0.99, "include_max": false, "label": ">= 95% to < 99%"},
+      {"min": 0.99, "max": null, "include_max": true, "label": ">= 99%"}
+    ]
+  },
+  "C29": {
+    "description": "Reviewing Appeals Decisions",
+    "hd_section": "HD5: Health Plan Customer Service",
+    "reverse": false,
+    "thresholds": [0.78, 0.92, 0.96, 0.99, 0.99],
+    "ranges": [
+      {"min": null, "max": 0.78, "include_max": false, "label": "< 78%"},
+      {"min": 0.78, "max": 0.92, "include_max": false, "label": ">= 78% to < 92%"},
+      {"min": 0.92, "max": 0.96, "include_max": false, "label": ">= 92% to < 96%"},
+      {"min": 0.96, "max": 0.99, "include_max": false, "label": ">= 96% to < 99%"},
+      {"min": 0.99, "max": null, "include_max": true, "label": ">= 99%"}
+    ]
+  },
+  "C30": {
+    "description": "Call Center & Foreign Language Interpreter and TTY Availability",
+    "hd_section": "HD5: Health Plan Customer Service",
+    "reverse": false,
+    "thresholds": [0.46, 0.69, 0.93, 1.0, 1.0],
+    "ranges": [
+      {"min": null, "max": 0.46, "include_max": false, "label": "< 46%"},
+      {"min": 0.46, "max": 0.69, "include_max": false, "label": ">= 46% to < 69%"},
+      {"min": 0.69, "max": 0.93, "include_max": false, "label": ">= 69% to < 93%"},
+      {"min": 0.93, "max": 1.0, "include_max": false, "label": ">= 93% to < 100%"},
+      {"min": 1.0, "max": null, "include_max": true, "label": ">= 100%"}
+    ]
+  }
+}
+  

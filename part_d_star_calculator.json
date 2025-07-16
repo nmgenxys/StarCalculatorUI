@@ -1,0 +1,303 @@
+{
+    "D01": {
+      "description": "Call Center – Foreign Language Interpreter and TTY Availability",
+      "hd_section": "DD1: Drug Plan Customer Service",
+      "reverse": false,
+      "thresholds": {
+        "MA-PD": [0.4, 0.74, 0.9, 1.0, 1.0],
+        "PDP": [0.7, 0.85, 0.98, 1.0, 1.0]
+      },
+      "ranges": {
+        "MA-PD": [
+          { "min": null, "max": 0.4, "include_max": false, "label": "< 40%" },
+          { "min": 0.4, "max": 0.74, "include_max": false, "label": ">= 40% to < 74%" },
+          { "min": 0.74, "max": 0.9, "include_max": false, "label": ">= 74% to < 90%" },
+          { "min": 0.9, "max": 1.0, "include_max": false, "label": ">= 90% to < 100%" },
+          { "min": 1.0, "max": null, "include_max": true, "label": "100%" }
+        ],
+        "PDP": [
+          { "min": null, "max": 0.7, "include_max": false, "label": "< 70%" },
+          { "min": 0.7, "max": 0.85, "include_max": false, "label": ">= 70% to < 85%" },
+          { "min": 0.85, "max": 0.98, "include_max": false, "label": ">= 85% to < 98%" },
+          { "min": 0.98, "max": 1.0, "include_max": false, "label": ">= 98% to < 100%" },
+          { "min": 1.0, "max": null, "include_max": true, "label": "100%" }
+        ]
+      }
+    },
+    "D02": {
+        "description": "Complaints about the Drug Plan",
+        "hd_section": "DD2: Member Complaints and Changes in the Drug Plan’s Performance",
+        "reverse": true,
+        "thresholds": {
+        "MA-PD": [1.39, 0.76, 0.37, 0.12, 0.12],
+        "PDP": [0.32, 0.2, 0.11, 0.04, 0.04]
+        },
+        "ranges": {
+        "MA-PD": [
+            { "min": 1.39, "max": null, "include_max": false, "label": "> 1.39" },
+            { "min": 0.76, "max": 1.39, "include_max": true, "label": "> 0.76 to <= 1.39" },
+            { "min": 0.37, "max": 0.76, "include_max": true, "label": "> 0.37 to <= 0.76" },
+            { "min": 0.12, "max": 0.37, "include_max": true, "label": "> 0.12 to <= 0.37" },
+            { "min": null, "max": 0.12, "include_max": true, "label": "<= 0.12" }
+        ],
+        "PDP": [
+            { "min": 0.32, "max": null, "include_max": false, "label": "> 0.32" },
+            { "min": 0.2, "max": 0.32, "include_max": true, "label": "> 0.2 to <= 0.32" },
+            { "min": 0.11, "max": 0.2, "include_max": true, "label": "> 0.11 to <= 0.2" },
+            { "min": 0.04, "max": 0.11, "include_max": true, "label": "> 0.04 to <= 0.11" },
+            { "min": null, "max": 0.04, "include_max": true, "label": "<= 0.04" }
+        ]
+        }
+    },
+    "D03": {
+        "description": "Members Choosing to Leave the Plan",
+        "hd_section": "DD2: Member Complaints and Changes in the Drug Plan’s Performance",
+        "reverse": true,
+        "thresholds": {
+        "MA-PD": [0.36, 0.24, 0.17, 0.08, 0.08],
+        "PDP": [0.22, 0.16, 0.09, 0.05, 0.05]
+        },
+        "ranges": {
+        "MA-PD": [
+            { "min": 0.36, "max": null, "include_max": false, "label": "> 36%" },
+            { "min": 0.24, "max": 0.36, "include_max": true, "label": "> 24% to <= 36%" },
+            { "min": 0.17, "max": 0.24, "include_max": true, "label": "> 17% to <= 24%" },
+            { "min": 0.08, "max": 0.17, "include_max": true, "label": "> 8% to <= 17%" },
+            { "min": null, "max": 0.08, "include_max": true, "label": "<= 8%" }
+        ],
+        "PDP": [
+            { "min": 0.22, "max": null, "include_max": false, "label": "> 22%" },
+            { "min": 0.16, "max": 0.22, "include_max": true, "label": "> 16% to <= 22%" },
+            { "min": 0.09, "max": 0.16, "include_max": true, "label": "> 9% to <= 16%" },
+            { "min": 0.05, "max": 0.09, "include_max": true, "label": "> 5% to <= 9%" },
+            { "min": null, "max": 0.05, "include_max": true, "label": "<= 5%" }
+        ]
+        }
+    },
+    "D04": {
+        "description": "Drug Plan Quality Improvement",
+        "hd_section": "DD2: Member Complaints and Changes in the Drug Plan’s Performance",
+        "reverse": false,
+        "thresholds": {
+        "MA-PD": [-0.218869, 0, 0.242468, 0.496603, 0.496603],
+        "PDP": [-0.2825, 0, 0.273334, 0.576667, 0.576667]
+        },
+        "ranges": {
+        "MA-PD": [
+            { "min": null, "max": -0.218869, "include_max": false, "label": "< -0.218869" },
+            { "min": -0.218869, "max": 0, "include_max": false, "label": ">= -0.218869 to < 0" },
+            { "min": 0, "max": 0.242468, "include_max": false, "label": ">= 0 to < 0.242468" },
+            { "min": 0.242468, "max": 0.496603, "include_max": false, "label": ">= 0.242468 to < 0.496603" },
+            { "min": 0.496603, "max": null, "include_max": true, "label": ">= 0.496603" }
+        ],
+        "PDP": [
+            { "min": null, "max": -0.2825, "include_max": false, "label": "< -0.2825" },
+            { "min": -0.2825, "max": 0, "include_max": false, "label": ">= -0.2825 to < 0" },
+            { "min": 0, "max": 0.273334, "include_max": false, "label": ">= 0 to < 0.273334" },
+            { "min": 0.273334, "max": 0.576667, "include_max": false, "label": ">= 0.273334 to < 0.576667" },
+            { "min": 0.576667, "max": null, "include_max": true, "label": ">= 0.576667" }
+        ]
+        }
+    },
+    "D05": {
+        "description": "Rating of Drug Plan",
+        "hd_section": "DD3: Member Experience with the Drug Plan",
+        "reverse": false,
+        "thresholds": {
+          "MA-PD": [0.84, 0.86, 0.87, 0.89, 0.89],
+          "PDP": [0.79, 0.82, 0.85, 0.87, 0.87]
+        },
+        "ranges": {
+          "MA-PD": [
+            { "min": null, "max": 0.84, "include_max": false, "label": "< 84" },
+            { "min": 0.84, "max": 0.86, "include_max": false, "label": ">= 84 to < 86" },
+            { "min": 0.86, "max": 0.87, "include_max": false, "label": ">= 86 to < 87" },
+            { "min": 0.87, "max": 0.89, "include_max": false, "label": ">= 87 to < 89" },
+            { "min": 0.89, "max": null, "include_max": true, "label": ">= 89" }
+          ],
+          "PDP": [
+            { "min": null, "max": 0.79, "include_max": false, "label": "< 79" },
+            { "min": 0.79, "max": 0.82, "include_max": false, "label": ">= 79 to < 82" },
+            { "min": 0.82, "max": 0.85, "include_max": false, "label": ">= 82 to < 85" },
+            { "min": 0.85, "max": 0.87, "include_max": false, "label": ">= 85 to < 87" },
+            { "min": 0.87, "max": null, "include_max": true, "label": ">= 87" }
+          ]
+        }
+      },
+    "D06": {
+    "description": "Getting Needed Prescription Drugs",
+    "hd_section": "DD3: Member Experience with the Drug Plan",
+    "reverse": false,
+    "thresholds": {
+        "MA-PD": [0.87, 0.88, 0.9, 0.91, 0.91],
+        "PDP": [0.86, 0.87, 0.89, 0.9, 0.9]
+    },
+    "ranges": {
+        "MA-PD": [
+        { "min": null, "max": 0.87, "include_max": false, "label": "< 87" },
+        { "min": 0.87, "max": 0.88, "include_max": false, "label": ">= 87 to < 88" },
+        { "min": 0.88, "max": 0.9, "include_max": false, "label": ">= 88 to < 90" },
+        { "min": 0.9, "max": 0.91, "include_max": false, "label": ">= 90 to < 91" },
+        { "min": 0.91, "max": null, "include_max": true, "label": ">= 91" }
+        ],
+        "PDP": [
+        { "min": null, "max": 0.86, "include_max": false, "label": "< 86" },
+        { "min": 0.86, "max": 0.87, "include_max": false, "label": ">= 86 to < 87" },
+        { "min": 0.87, "max": 0.89, "include_max": false, "label": ">= 87 to < 89" },
+        { "min": 0.89, "max": 0.9, "include_max": false, "label": ">= 89 to < 90" },
+        { "min": 0.9, "max": null, "include_max": true, "label": ">= 90" }
+        ]
+    }
+    },
+    "D07": {
+        "description": "MPF Price Accuracy",
+        "hd_section": "DD4: Drug Safety and Accuracy of Drug Pricing",
+        "reverse": false,
+        "thresholds": {
+          "MA-PD": [0.97, 0.98, 0.99, 1, 1],
+          "PDP": [0.97, 0.98, 0.99, 1, 1]
+        },
+        "ranges": {
+          "MA-PD": [
+            { "min": null, "max": 0.97, "include_max": false, "label": "< 97" },
+            { "min": 0.97, "max": 0.98, "include_max": false, "label": ">= 97 to < 98" },
+            { "min": 0.98, "max": 0.99, "include_max": false, "label": ">= 98 to < 99" },
+            { "min": 0.99, "max": 1, "include_max": false, "label": ">= 99 to < 100" },
+            { "min": 1, "max": null, "include_max": true, "label": ">= 100" }
+          ],
+          "PDP": [
+            { "min": null, "max": 0.97, "include_max": false, "label": "< 97" },
+            { "min": 0.97, "max": 0.98, "include_max": false, "label": ">= 97 to < 98" },
+            { "min": 0.98, "max": 0.99, "include_max": false, "label": ">= 98 to < 99" },
+            { "min": 0.99, "max": 1, "include_max": false, "label": ">= 99 to < 100" },
+            { "min": 1, "max": null, "include_max": true, "label": ">= 100" }
+          ]
+        }
+      },
+    "D08": {
+    "description": "Medication Adherence for Diabetes Medications",
+    "hd_section": "DD4: Drug Safety and Accuracy of Drug Pricing",
+    "reverse": false,
+    "thresholds": {
+        "MA-PD": [0.8, 0.85, 0.87, 0.91, 0.91],
+        "PDP": [0.85, 0.87, 0.89, 0.93, 0.93]
+    },
+    "ranges": {
+        "MA-PD": [
+        { "min": null, "max": 0.8, "include_max": false, "label": "< 80%" },
+        { "min": 0.8, "max": 0.85, "include_max": false, "label": ">= 80% to < 85%" },
+        { "min": 0.85, "max": 0.87, "include_max": false, "label": ">= 85% to < 87%" },
+        { "min": 0.87, "max": 0.91, "include_max": false, "label": ">= 87% to < 91%" },
+        { "min": 0.91, "max": null, "include_max": true, "label": ">= 91%" }
+        ],
+        "PDP": [
+        { "min": null, "max": 0.85, "include_max": false, "label": "< 85%" },
+        { "min": 0.85, "max": 0.87, "include_max": false, "label": ">= 85% to < 87%" },
+        { "min": 0.87, "max": 0.89, "include_max": false, "label": ">= 87% to < 89%" },
+        { "min": 0.89, "max": 0.93, "include_max": false, "label": ">= 89% to < 93%" },
+        { "min": 0.93, "max": null, "include_max": true, "label": ">= 93%" }
+        ]
+    }
+    },
+    "D09": {
+    "description": "Medication Adherence for Hypertension (RAS antagonists)",
+    "hd_section": "DD4: Drug Safety and Accuracy of Drug Pricing",
+    "reverse": false,
+    "thresholds": {
+        "MA-PD": [0.83, 0.87, 0.9, 0.92, 0.92],
+        "PDP": [0.87, 0.89, 0.9, 0.92, 0.92]
+    },
+    "ranges": {
+        "MA-PD": [
+        { "min": null, "max": 0.83, "include_max": false, "label": "< 83%" },
+        { "min": 0.83, "max": 0.87, "include_max": false, "label": ">= 83% to < 87%" },
+        { "min": 0.87, "max": 0.9, "include_max": false, "label": ">= 87% to < 90%" },
+        { "min": 0.9, "max": 0.92, "include_max": false, "label": ">= 90% to < 92%" },
+        { "min": 0.92, "max": null, "include_max": true, "label": ">= 92%" }
+        ],
+        "PDP": [
+        { "min": null, "max": 0.87, "include_max": false, "label": "< 87%" },
+        { "min": 0.87, "max": 0.89, "include_max": false, "label": ">= 87% to < 89%" },
+        { "min": 0.89, "max": 0.9, "include_max": false, "label": ">= 89% to < 90%" },
+        { "min": 0.9, "max": 0.92, "include_max": false, "label": ">= 90% to < 92%" },
+        { "min": 0.92, "max": null, "include_max": true, "label": ">= 92%" }
+        ]
+    }
+    },
+    "D10": {
+    "description": "Medication Adherence for Cholesterol (Statins)",
+    "hd_section": "DD4: Drug Safety and Accuracy of Drug Pricing",
+    "reverse": false,
+    "thresholds": {
+        "MA-PD": [0.8, 0.85, 0.89, 0.93, 0.93],
+        "PDP": [0.86, 0.88, 0.89, 0.92, 0.92]
+    },
+    "ranges": {
+        "MA-PD": [
+        { "min": null, "max": 0.8, "include_max": false, "label": "< 80%" },
+        { "min": 0.8, "max": 0.85, "include_max": false, "label": ">= 80% to < 85%" },
+        { "min": 0.85, "max": 0.89, "include_max": false, "label": ">= 85% to < 89%" },
+        { "min": 0.89, "max": 0.93, "include_max": false, "label": ">= 89% to < 93%" },
+        { "min": 0.93, "max": null, "include_max": true, "label": ">= 93%" }
+        ],
+        "PDP": [
+        { "min": null, "max": 0.86, "include_max": false, "label": "< 86%" },
+        { "min": 0.86, "max": 0.88, "include_max": false, "label": ">= 86% to < 88%" },
+        { "min": 0.88, "max": 0.89, "include_max": false, "label": ">= 88% to < 89%" },
+        { "min": 0.89, "max": 0.92, "include_max": false, "label": ">= 89% to < 92%" },
+        { "min": 0.92, "max": null, "include_max": true, "label": ">= 92%" }
+        ]
+    }
+    },
+    "D11": {
+    "description": "MTM Program Completion Rate for CMR",
+    "hd_section": "DD4: Drug Safety and Accuracy of Drug Pricing",
+    "reverse": false,
+    "thresholds": {
+        "MA-PD": [0.57, 0.77, 0.89, 0.93, 0.93],
+        "PDP": [0.3, 0.55, 0.68, 0.8, 0.8]
+    },
+    "ranges": {
+        "MA-PD": [
+        { "min": null, "max": 0.57, "include_max": false, "label": "< 57%" },
+        { "min": 0.57, "max": 0.77, "include_max": false, "label": ">= 57% to < 77%" },
+        { "min": 0.77, "max": 0.89, "include_max": false, "label": ">= 77% to < 89%" },
+        { "min": 0.89, "max": 0.93, "include_max": false, "label": ">= 89% to < 93%" },
+        { "min": 0.93, "max": null, "include_max": true, "label": ">= 93%" }
+        ],
+        "PDP": [
+        { "min": null, "max": 0.3, "include_max": false, "label": "< 30%" },
+        { "min": 0.3, "max": 0.55, "include_max": false, "label": ">= 30% to < 55%" },
+        { "min": 0.55, "max": 0.68, "include_max": false, "label": ">= 55% to < 68%" },
+        { "min": 0.68, "max": 0.8, "include_max": false, "label": ">= 68% to < 80%" },
+        { "min": 0.8, "max": null, "include_max": true, "label": ">= 80%" }
+        ]
+    }
+    },
+    "D12": {
+    "description": "Statin Use in Persons with Diabetes (SUPD)",
+    "hd_section": "DD4: Drug Safety and Accuracy of Drug Pricing",
+    "reverse": false,
+    "thresholds": {
+        "MA-PD": [0.81, 0.86, 0.89, 0.93, 0.93],
+        "PDP": [0.8, 0.83, 0.85, 0.87, 0.87]
+    },
+    "ranges": {
+        "MA-PD": [
+        { "min": null, "max": 0.81, "include_max": false, "label": "< 81%" },
+        { "min": 0.81, "max": 0.86, "include_max": false, "label": ">= 81% to < 86%" },
+        { "min": 0.86, "max": 0.89, "include_max": false, "label": ">= 86% to < 89%" },
+        { "min": 0.89, "max": 0.93, "include_max": false, "label": ">= 89% to < 93%" },
+        { "min": 0.93, "max": null, "include_max": true, "label": ">= 93%" }
+        ],
+        "PDP": [
+        { "min": null, "max": 0.8, "include_max": false, "label": "< 80%" },
+        { "min": 0.8, "max": 0.83, "include_max": false, "label": ">= 80% to < 83%" },
+        { "min": 0.83, "max": 0.85, "include_max": false, "label": ">= 83% to < 85%" },
+        { "min": 0.85, "max": 0.87, "include_max": false, "label": ">= 85% to < 87%" },
+        { "min": 0.87, "max": null, "include_max": true, "label": ">= 87%" }
+        ]
+    }
+    }
+}
+      
