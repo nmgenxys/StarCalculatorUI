@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 # =========== header =============
 col1, col2 = st.columns([1, 5])
 with col1:
-    st.image("/Users/navameadi/Documents/GenXys/Star_Rating_Calculator/1Asset 49GenXysHD.png", width=1200)
+    st.image("1Asset 49GenXysHD.png", width=1200)
 with col2:
     st.title("Star Rating Calculator")
     st.markdown(
