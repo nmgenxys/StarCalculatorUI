@@ -114,7 +114,7 @@ with col2:
 
 # ==================== Table ====================
 # Title, Spacer, Boost Input, Apply, Reset — all in one row
-title_col, spacer_col, boost_input_col, boost_btn_col, reset_col = st.columns([5.5, 1.5, 0.6, 1.1, 1])
+title_col, spacer_col, boost_input_col, boost_btn_col, reset_col = st.columns([5.5, 1.5, 0.6, 1, 1])
 
 # Title
 with title_col:
